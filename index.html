@@ -12,7 +12,9 @@
 </head>
  
 <body>
-<audio src="lemon.mp3" autoplay loop preload></audio>
+<audio autoplay loop preload id="myaudio">
+  <source src="lemon.mp3">
+</audio>
         <div class="sidebar">
             <nav>
                 <ul>
@@ -155,7 +157,11 @@
 
   </section>
 </div>
-
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.2;
+</script>
+  
 <script type="text/javascript">
   $(window).scroll(function(event) {
     if ($(window).scrollTop()>=130) $('body').addClass('flowers-leaves');
