@@ -4,8 +4,7 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
 
 .con { width: 100%; height: 100%; }
 .con section { width: 100%; height: 100%; }
-#main { width: 100%; height: 100%; }
-#main > section { width: 100%; height: 100%; }}
+
 #container {
     position: relative;
     overflow: hidden;
