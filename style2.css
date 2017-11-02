@@ -20,7 +20,8 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
        top: 20%;
        padding-left: 5%;
 }
-#main{ background: url('back.png'); background-size: cover;   
+#main{ background: url('back.png'); 
+       background-color: #e5bc73; background-size: cover;   
        -webkit-background-size: cover;
        -moz-background-size: cover;
        -o-background-size: cover; }
